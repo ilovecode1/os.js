@@ -1,3 +1,9 @@
+/*
+
+os.js v0.2 by cosmic open source projects
+
+*/
+
 windows = false;
 ios = false;
 macos = false;
@@ -7,20 +13,39 @@ ios = false;
 android = false
   
 
-if (navigator.appVersion.indexOf("Win")!=-1) windows = true;
+if (navigator.appVersion.indexOf("Win")!=-1) 
+{
+  
+windows = true;
 
-if (navigator.appVersion.indexOf("Mac")!=-1) macos = true;
+}
 
-if (navigator.appVersion.indexOf("X11")!=-1) unix = true;
+else if (navigator.appVersion.indexOf("Mac")!=-1)
+{
 
-if (navigator.appVersion.indexOf("Linux")!=-1) linux = true;
+macos = true
 
-if( userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.match( /iPod/i ) )
+}
+
+else if (navigator.appVersion.indexOf("X11")!=-1)
+{
+  
+  unix = true;
+} 
+
+else if (navigator.appVersion.indexOf("Linux")!=-1)
+{
+  
+ linux = true;
+  
+}
+
+else if( userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.match( /iPod/i ) )
   {
     ios = true;
 
   }
-  if( userAgent.match( /Android/i ) )
+else if( userAgent.match( /Android/i ) )
   {
 
     android = true;
