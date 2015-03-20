@@ -10,7 +10,7 @@ macos = false;
 unix = false;
 linux = false;
 ios = false;
-android = false
+android = false;
   
 
 if (navigator.appVersion.indexOf("Win")!=-1) 
