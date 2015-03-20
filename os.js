@@ -25,3 +25,4 @@ if( userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.matc
 
     android = true;
   }
+  
