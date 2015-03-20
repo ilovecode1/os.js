@@ -21,6 +21,7 @@ if (mac === false)
 }
 ```
 
+A Better example at http://www.codecademy.com/cosmiclearn/codebits/jyWode
 
 
 os.js looks for Mac, Windows, Linux, Android and IOS! More comming soon!
