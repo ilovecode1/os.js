@@ -4,6 +4,7 @@ macos = false;
 unix = false;
 linux = false;
 ios = false;
+android = false
   
 
 if (navigator.appVersion.indexOf("Win")!=-1) windows = true;
@@ -19,4 +20,8 @@ if( userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.matc
     ios = true;
 
   }
-  
+  if( userAgent.match( /Android/i ) )
+  {
+
+    android = true;
+  }
