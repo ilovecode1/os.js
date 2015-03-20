@@ -1,2 +1,1 @@
-# os.js
-The simple os finder!
+OS.js is comming soon!
