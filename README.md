@@ -1,3 +1,5 @@
+Discontinued!
+
 #What is os.js
 
 Simply figure out what os your user has!
